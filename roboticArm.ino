@@ -7,18 +7,18 @@ int base_pot, shoulder_pot, elbow_pot, gripper_pot;
 
 void setup() {
 
-  pinMode(A0, OUTPUT);
+  pinMode(A0, INPUT);
   base.attach(3);
-  
-  pinMode(A1, OUTPUT);
+
+  pinMode(A1, INPUT);
   shoulder.attach(5);
-  
-  pinMode(A2, OUTPUT);
+
+  pinMode(A2, INPUT);
   elbow.attach(6);
-  
-  pinMode(A3, OUTPUT);
+
+  pinMode(A3, INPUT);
   gripper.attach(9);
-    
+
 }
 
 void loop() {
